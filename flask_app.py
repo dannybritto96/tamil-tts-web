@@ -21,7 +21,7 @@ def tts():
         audioFile = filename+".mp3"
         print("Initiating MP3 upload")
         files = {'ttsAudio':open(audioFile,'rb')}
-        url = 'http://18.219.251.72/tts/getMp3'
+        url = 'http://127.0.0.1/tts/getMp3'
         r = requests.post(url,files=files)
         print(r.content)
         return 'Success'
