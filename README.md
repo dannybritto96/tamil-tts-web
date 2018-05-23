@@ -16,6 +16,12 @@ Thanks to Shrinivasan for putting this together.
 
 ## Setting up Flask Application
 
+#### Prerequisites
+
+<pre>
+pip install requests
+</pre>
+
 <pre>
 python flask_app.py
 </pre>
@@ -23,6 +29,12 @@ python flask_app.py
 The Django Application communicates with the Flask which executes the tamil-tts.sh which does the TTS audio file.
 
 ## Django Application
+
+#### Prerequisites
+
+<pre>
+pip install requests
+</pre>
 
 I've added the views.py and urls.py here. Use it in your Django Application.
 
